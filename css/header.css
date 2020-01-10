@@ -23,6 +23,9 @@
 }
 
 .header .header__back-btn {
+    display: flex;
+    
     font-size: 24px;
     margin-right: 18px;   
 }
+

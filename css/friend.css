@@ -1,0 +1,79 @@
+.friend {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.friend .friend__avatar {
+    width: 50px;
+    border-radius: 33%;
+}
+
+.friend__avatar.g-avatar {
+   width: 70px;
+}
+
+.friend__avatar.m-avatar {
+    width: 60px;
+}
+
+.friend .friend__column {
+    display: flex;
+    
+    align-items: center;
+}
+
+.friend .friend__avatar{
+    margin-right: 15px;
+}
+
+.friend__content .friend__name { 
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+.friend__content .friend__bottom-text,
+.friend__content .friend__status,
+.friend__column .chat__timestamp {
+    opacity: 0.6;
+}
+
+.friend__content .friend__bottom-text {
+    font-size: 14px;
+}
+
+.friend__content .friend__status,
+.friend__column .chat__timestamp {
+    font-size: 12px;
+}
+
+.friend .friend__now-listening {
+    font-size: 10px;
+    font-weight: 400;
+    margin-bottom: 12px;
+    padding: 5px 10px;
+    border: 2px solid #5aad77;
+    border-radius: 15px;
+}
+
+.friend__now-listening span {
+    opacity: 0.6;
+}
+
+.friend__now-listening i {
+    font-size: 10px;
+    margin-left: 5px;
+}
+
+.friend .friend__add-btn {
+    padding: 9px 12px;
+    background-color: rgb(237, 237, 237);
+    border-radius: 5px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

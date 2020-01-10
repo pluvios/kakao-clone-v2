@@ -1,0 +1,40 @@
+
+
+.find .find__header-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.find__header-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+.find__header-btn .header-btn__title {
+    display: block;
+    margin-top: 10px;
+    font-size: 13px;
+    opacity: 0.6;
+} 
+
+.find__header-btn .header-btn__icon {
+    opacity: 0.6;
+    font-size: 12px
+}
+
+.find__recommended {
+    margin-top: 30px;
+    border-top: 1px solid #f7f7f7;
+    padding: 20px 0px;
+}
+
+.find .find__title {
+    font-size: 12px;
+    opacity: 0.6;
+    margin-bottom: 20px;
+}
