@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/styles.css" class="">
     <title>Chat | Kakao Clone</title>
 </head>
-<body>
+<body class="chats-body">
     <div class="status-bar">
         <div class="status-bar__column">
             <span class="status-bar__clock">13:54</span>
@@ -24,39 +24,44 @@
         </div>
 
     </div>    
-<header class="header">
-    <div class="header__header-column">
+    <header class="header">
+        <div class="header__header-column">
                 <a href="index.html" class="header__back-btn">
                 <i class="fas fa-arrow-left"></i>
             </a>
         <h1 class="header__title">탄과장</h1>
-    </div>
+        </div>
 
-    <div class="header__header-column">
-        <span class="header__icons"><i class="fas fa-search"></i></span>
-        <span class="header__icons">
-        <i class="fas fa-bars"></i>
-        </span>    
+        <div class="header__header-column">
+           <span class="header__icons"><i class="fas fa-search"></i></span>
+           <span class="header__icons">
+           <i class="fas fa-bars"></i>
+           </span>    
+        </div>
+    </header>
 
-    </div>
-</header>
-<main class="chat">
+    <main class="chat-screen">
     <ul class="chat__messages">
         <span class="chat__timestamp">Saturday, January 4, 2020</span>
         <li class="incoming-message message">
             <img src="images/avatar.jpg" alt="" class="g-avatar message__avatar">
             <div class="message__content">
-                <span class="message__author">Best Friend</span>
-                <div class="message__bubble">Congrats! I love you</div>
+                <div>
+                    <span class="message__author">Best Friend</span>
+                    <div class="message__bubble">Congrats! I love you
+                    </div>
+                </div>
+                <span class="message__timestamp">5:56 pm</span>
             </div>
-            <span class="message__timestamp">5:56 pm</span>
+         
+
         </li>
-        <li class="outgoing-message message">
+        <li class="sent-message message">
                 <span class="message__timestamp">5:57 pm</span>
                 <div class="message__content">
                     <div class="message__bubble">Thank you See you soon!</div>
                 </div>         
-            </li>
+        </li>
     </ul>
     <div class="chat__write">
         <div class="chat__write-column">
