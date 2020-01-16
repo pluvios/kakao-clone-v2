@@ -20,7 +20,6 @@
 
 .friend .friend__column {
     display: flex;
-    
     align-items: center;
 }
 
@@ -52,10 +51,11 @@
 .friend .friend__now-listening {
     font-size: 10px;
     font-weight: 400;
-    margin-bottom: 12px;
     padding: 5px 10px;
     border: 2px solid #5aad77;
     border-radius: 15px;
+    display: flex;
+    align-items: center;
 }
 
 .friend__now-listening span {
