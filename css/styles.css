@@ -9,6 +9,7 @@
 @import "more.css";
 @import "settings.css";
 @import "chat.css";
+@import "mobile.css";
 
 body{
     background-color: white;
@@ -24,4 +25,37 @@ a{
 
 * {
     box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+    from{
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+}
+
+main {
+    animation: fadeIn .5s ease-in-out;
+}
+
+@keyframes showNavBar {
+    from{
+        transform: translateY(70px);
+        opacity: 0;
+    }
+    to{
+        transform: none;
+        opacity: 1;
+    }
+
+}
+
+.nav {
+    transform: translateY(70px);
+    animation: showNavBar .5s ease-in-out forwards;
+    animation-delay: 0.1s;
 }
